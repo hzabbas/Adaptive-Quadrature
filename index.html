@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adaptive Quadrature Algorithm</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Adaptive Quadrature Algorithm</strong></li>
+        </ul>
+        <ul>
+            <li><a href="https://github.com/hzabbas" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Adaptive Quadrature Algorithm</h2>
+                    <h3>Approximate Integration</h3>
+                </hgroup>
+                <p>This page demonstrates the use of an adaptive quadrature algorithm to approximate the integral of a given function.</p>
+                <figure>
+                    <div id="plot"></div>
+                    <figcaption>
+                        <a href="https://en.wikipedia.org/wiki/Adaptive_quadrature" target="_blank">Learn more about Adaptive Quadrature</a>
+                    </figcaption>
+                </figure>
+                <h3>Result</h3>
+                <p id="result"></p>
+                <h3>Function</h3>
+                <p>The function used is \( f(x) = \frac{100}{x^2} \sin \left(\frac{10}{x}\right) \)</p>
+            </section>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
